@@ -6,6 +6,8 @@ body {
     align-items: stretch;
 }
 
+/* Header section formatting */
+
 .header {
     display: flex;
     flex-flow: row nowrap;
@@ -13,7 +15,7 @@ body {
     align-items: center;
     background-color: #1f2937;
     color: #F9FAF8;
-    padding: 20px 50px;
+    padding: 15px 0px;
     gap: 50px;
 
 }
@@ -21,12 +23,12 @@ body {
 .logo {
 font-size: 24px;
 font-weight: bold;
-width: 500px;
+width: 450px;
 }
 
 .header-links {
     display: flex;
-    width: 600px;
+    width: 500px;
     justify-content: flex-end;
 }
 
@@ -45,6 +47,8 @@ a {
     color: #F9FAF8;
 }
 
+/* Hero section formatting */
+
 .hero {
     display: flex;
     flex-flow: row nowrap;
@@ -52,7 +56,7 @@ a {
     justify-content: center;
     background-color: #1f2937;
     color: #F9FAF8;
-    padding: 100px;
+    padding: 80px;
     gap: 60px;
 }
 
@@ -66,17 +70,18 @@ a {
 }
 
 .heroleft {
-    width: 500px;
-    height: 250px;
+    width: 450px;
+    height: 300px;
     display: flex;
     flex-direction: column;
-    row-gap: 20px;
+    justify-content: center;
+    gap: 20px;
     
 }
 
 .heroimage {
-    width: 600px;
-    height: 250px;
+    width: 500px;
+    height: 300px;
     border-radius: 8px;
 }
 
@@ -84,9 +89,12 @@ a {
     background-color: #3882f6;
     color: #F9FAF8;
     font-weight: bold;
-    width: 100px;
-    height: 30px;
-    border-radius: 5px;
+    font-size: 18px;
+    width: 150px;
+    height: 40px;
+    border-radius: 8px;
     border: none;
 }
+
+/* Image and info section formatting */
 
