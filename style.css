@@ -22,7 +22,7 @@ body {
 
 .logo {
 font-size: 24px;
-font-weight: bold;
+font-weight: 900;
 width: 450px;
 }
 
@@ -61,7 +61,7 @@ a {
 
 .heromain{
    font-size: 48px;
-   font-weight: bolder;
+   font-weight: 900;
    color: #F9FAF8;
 }
 
@@ -105,17 +105,18 @@ a {
     justify-content: center;
     align-items: flex-start;
     gap: 50px;
+    height: 400px;
     margin: 0;
 }
 
 .infotitle {
     font-size: 36px;
-    font-weight: bolder;
+    font-weight: 900;
     color: #1f2937;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px;
+    height: 200px;
 }
 
 .infoimage {
@@ -133,6 +134,35 @@ a {
 
 .text {
     text-align: center;
+    font-size: 18px;
+    color: gray
+}
+
+/* Quote section formatting */
+
+.quote {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column wrap;
+    background-color: #e5e7eb ;
+    height: 450px;
+    gap: px;
+}
+
+.mainquote {
+    width: 700px;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    text-align: left;
+}
+
+.quotename {
+    width: 600px;
+    font-size: 18px;
+    display: flex;
+    justify-content: end;
 }
 
 
