@@ -10,13 +10,13 @@ body {
 
 .header {
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     justify-content: center;
     align-items: center;
     background-color: #1f2937;
     color: #F9FAF8;
     padding: 15px 0px;
-    gap: 50px;
+    gap: 60px;
 
 }
 
@@ -55,7 +55,6 @@ a {
     align-items: center;
     justify-content: center;
     background-color: #1f2937;
-    color: #F9FAF8;
     padding: 80px;
     gap: 60px;
 }
@@ -63,10 +62,12 @@ a {
 .heromain{
    font-size: 48px;
    font-weight: bolder;
+   color: #F9FAF8;
 }
 
 .herosecond {
     font-size: 18px;
+    color: #e5e7eb;
 }
 
 .heroleft {
@@ -97,4 +98,41 @@ a {
 }
 
 /* Image and info section formatting */
+
+.info {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+    margin: 0;
+}
+
+.infotitle {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.infoimage {
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.image {
+    width: 200px;
+    margin: 0;
+}
+
+.text {
+    text-align: center;
+}
+
 
