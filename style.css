@@ -21,9 +21,9 @@ body {
 }
 
 .logo {
-font-size: 24px;
-font-weight: 900;
-width: 450px;
+    font-size: 24px;
+    font-weight: 900;
+    width: 450px;
 }
 
 .header-links {
@@ -55,7 +55,7 @@ a {
     align-items: center;
     justify-content: center;
     background-color: #1f2937;
-    padding: 80px;
+    padding: 100px;
     gap: 60px;
 }
 
@@ -105,7 +105,7 @@ a {
     justify-content: center;
     align-items: flex-start;
     gap: 50px;
-    height: 400px;
+    height: 350px;
     margin: 0;
 }
 
@@ -146,12 +146,11 @@ a {
     justify-content: center;
     flex-flow: column wrap;
     background-color: #e5e7eb ;
-    height: 450px;
-    gap: px;
+    padding: 100px;
 }
 
 .mainquote {
-    width: 700px;
+    width: 750px;
     font-size: 36px;
     font-weight: lighter;
     font-style: italic;
@@ -159,10 +158,30 @@ a {
 }
 
 .quotename {
-    width: 600px;
-    font-size: 18px;
-    display: flex;
-    justify-content: end;
+    width: 550px;
+    font-weight: bold;
+    font-size: 25px;
+    text-align:end;
 }
 
+/* Call to action formatting */
+
+.cta {
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.box {
+    background-color: #3882f6;
+    display: flex;
+    padding: 100px;
+    border-radius: 15px;
+}
+
+.boxleft {
+    margin-right: auto;
+}
 
